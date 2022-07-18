@@ -35,7 +35,7 @@ public class Login_Page
 	@Given("User is on the login page.")
 	public void user_is_on_the_login_page() 
 	{
-		driver.get("https://www.facebook.com/login/");
+		driver.get("https://accounts.lambdatest.com/login");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	   
 	}

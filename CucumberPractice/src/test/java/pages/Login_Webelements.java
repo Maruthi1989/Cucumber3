@@ -12,13 +12,13 @@ public class Login_Webelements
 	@FindBy(name="email")
 	WebElement Email;
 	
-	@FindBy(id="pass")
+	@FindBy(id="password")
 	WebElement Password;
 	
-	@FindBy(id="loginbutton")
+	@FindBy(id="login-button")
 	WebElement LoginBtn;
 	
-	@FindBy(xpath="//span[text()='Maruthi BN']")
+	@FindBy(xpath="//span[text()='Maruthi']")
 	WebElement Homepage;
 	
 	public Login_Webelements(WebDriver driver)
